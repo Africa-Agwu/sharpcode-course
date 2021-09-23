@@ -1,0 +1,19 @@
+.container {
+    overflow: hidden;
+}
+
+.tab {
+    float: left
+}
+
+.tab2 {
+    margin-left: 50px;
+}
+.tab2 input {
+    display: block;
+    margin-bottom: 10px ;
+}
+
+#table {
+    display: none;
+}

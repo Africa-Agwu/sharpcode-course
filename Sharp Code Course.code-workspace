@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "Challenge one"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sharp Code Course",
+		"liveServer.settings.port": 5501
+	}
+}

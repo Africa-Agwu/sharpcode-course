@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+
+        $("document").ready(function(){
+            $('#slide-up').click(function(){
+                $('#textArea').slideUp('3000', 'linear');
+            });
+            $('#slide-down').click(function(){
+                $('#textArea').slideDown('3000', 'linear');
+            });
+            $('#toggleSlide').click(function(){
+                $('#textArea').slideToggle('3000', 'linear');
+            });
+        });
+    </script>
+    <style>
+    
+    </style>
+</head>
+<body>
+<a href="#" id="slide-up">Slide Up</a> | <a href="#" id="slide-down">Slide Down</a> | <a href="#" id="toggleSlide">Toggle</a>
+
+
+
+    <div id="textArea">
+<p class="textCopy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio esse ullam quae reprehenderit repudiandae odio culpa quos sequi minima quis repellendus debitis illum dolorem, natus quaerat dignissimos fugiat maiores provident!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui nemo id quo eligendi inventore doloremque dolor, excepturi nihil nulla ducimus esse harum aspernatur aut ab blanditiis, expedita facilis nostrum.</p>
+        </div>
+</body>
+</html>

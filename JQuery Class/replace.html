@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+
+        $('document').ready(function(){
+            var newText = $('<p>');
+                newText.append('<i>I just appended something to this</i>');
+            $('#textArea').append(newText);
+        });
+    </script>
+</head>
+<body>
+    <div id="textArea">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, quibusdam natus laborum explicabo enim dolorem nisi dolorum minima unde ea saepe mollitia cum dolore dicta eius deserunt doloremque quaerat quod?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam libero sed, laudantium reprehenderit harum perspiciatis, dolorum explicabo laborum sint debitis similique at assumenda architecto ea aliquam nulla rem quod earum.
+    </p>
+    </div>
+</body>
+</html>

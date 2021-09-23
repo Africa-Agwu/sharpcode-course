@@ -1,0 +1,25 @@
+
+
+
+[{"item": "Html Tutorial and Certification", "unit_price": 30000, "quantity": 1, "price":"", "id": "web_dev"},
+{"item": "CSS Tutorial and Certification", "unit_price": 35000, "quantity":1, "price":"", "id": "web_dev"},
+{"item": "Javascript Tutorial and Certification", "unit_price": 80000, "quantity":1, "price":"", "id": "web_dev"},
+{"item": "C-sharp Tutorial and Certification", "unit_price":90000, "quantity":1, "price":"", "id": "web_dev"},
+{"item": "Python Tutorial and Certification", "unit_price":60000, "quantity":1, "price":"", "id": "web_dev"},
+{"item": "PHP Tutorial and Certification", "unit_price":50000, "quantity":1, "price":"", "id": "web_dev"},
+{"item": "SQL Tutorial and Certification", "unit_price":55000, "quantity":1, "price":"", "id": "web_dev"},
+{"item": "Photoshop Tutorial and Certification", "unit_price":30000, "quantity":1, "price":"", "id": "web_design"},
+{"item": "Illustrator Tutorial and Certification", "unit_price":30000, "quantity":1, "price":"", "id":"web_design"},
+{"item": "XD Tutorial and Certification", "unit_price":40000, "quantity":1, "price":"", "id":"web_design"},
+{"item": "Sketch Tutorial and Certification", "unit_price":40000, "quantity":1, "price":"", "id":"web_design"},
+{"item": "Webflow Tutorial and Certification", "unit_price":40000, "quantity":1, "price":"", "id":"web_design"},
+{"item": "Figma Tutorial and certification", "unit_price":25000, "quantity":1, "price":"", "id":"web_design"},
+{"item": "Android Development Tutorial and Certification", "unit_price":60000, "quantity":1, "price":"", "id":"mobile"},
+{"item":"IOS Development Tutorial and Certification", "unit_price":75000, "quantity":1, "price":"", "id":"mobile"},
+{"item" : "Java Development Tutorial and Certification", "unit_price":70000, "quantity":1, "price":"", "id":"mobile"},
+{"item": "Ethical Hacking Course", "unit_price":150000, "quantity":1, "price":"", "id": "networking"},
+{"item": "Small office Home Office Network Deployment", "unit_price":90000, "quantity":1, "price":"", "id":"networking"},
+{"item":"Pen Testing Fundamentals", "unit_price":50000, "quantity":1, "price":"", "id":"networking"},
+{"item":"Android and IOS hacking Course", "unit_price":80000, "quantity":1, "price":"", "id":"networking"},
+{"item": "IOT and Embedded Systems", "unit_price":60000, "quantity":1, "price":"", "id": "Hardware Solutions"}
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+
+        $('document').ready(function(){
+            $('#textArea').on('click', whenMouseIsClicked);
+            $('#textArea').on('mouseleave', whenMouseLeaves);
+            function whenMouseIsClicked() {
+                $('#textArea').html('<h3>You Clicked Me</>');
+            }
+            function whenMouseLeaves() {
+                $('#textArea').html('<h3>Where Are You Going?</>');
+            }
+        });
+    </script>
+    <style>
+
+        #textArea {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            background-color: aliceblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="textArea">
+</div>
+</body>
+</html>

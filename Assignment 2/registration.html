@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Portal</title>
+    <link rel="stylesheet" href="registration.css" type="text/css">
+    <script src="lottie.js"></script>
+</head>
+<body>
+
+    <h1>Registration Portal</h1>
+    <div class="container">
+        <div class="tab tab1">
+            <table id="table" align='center' cellspacing=2 cellpadding=5 border=1>
+                <tr>
+                    <th>E-Mail</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>passport</th>
+                    <th>Options</th>
+                </tr>
+                
+            </table>
+        </div>
+        <div class="tab tab2">
+            E-Mail : <input type="email"  id="email" placeholder="example@gmail.com">
+            First Name : <input type="text"  id="fname" placeholder="Mickey">
+            Last Name : <input type="text"  id="lname" placeholder=" Mouse">
+            Address : <input type="text"  id="address" placeholder="100 cartoon drive, DisneyLand"/>
+            Photo : <input type="file" accept="image/jpeg, image/png" name="image" id="passport" onchange="loadImage(event)" style="display: none;"  >
+            <p><img id="output" width="100" /></p>
+            <button><label for="passport" style="cursor: pointer;">Upload Passport</label></button>
+            
+
+            <button onclick="addTableRow()">Register</button>
+            <button onclick="updateSelectedTableRow()">Update</button>
+            <!-- <button onclick="editSelectedTableRow()">Edit</button>
+            <button>Delete</button> -->
+        </div>
+    </div>
+    <section>
+        <div id="ChatBot"></div>
+        <script src="chat.js"></script>
+      </section>
+    <script src="registeration.js"></script>
+</body>
+</html>

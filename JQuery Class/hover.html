@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+
+        $("document").ready(function(){
+            $('.textCopy').hover(highlightedCopy);
+            function highlightedCopy(){
+                $(this).toggleClass('highlight');
+            }
+        });
+    </script>
+    <style>
+        .highlight {
+            background: #ff0000;
+        }
+       
+
+        
+    </style>
+</head>
+<body>
+<a href="#" id="show">Click me</a>
+
+
+    <div id="textArea">
+<p class="textCopy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio esse ullam quae reprehenderit repudiandae odio culpa quos sequi minima quis repellendus debitis illum dolorem, natus quaerat dignissimos fugiat maiores provident!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui nemo id quo eligendi inventore doloremque dolor, excepturi nihil nulla ducimus esse harum aspernatur aut ab blanditiis, expedita facilis nostrum.</p>
+        </div>
+</body>
+</html>
